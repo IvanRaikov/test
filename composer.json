@@ -1,0 +1,19 @@
+{
+    "name": "root/test",
+    "description": "test project",
+    "type": "stable",
+    "authors": [
+        {
+            "name": "ivan raikov",
+            "email": "zemlyanin42@gmail.com"
+        }
+    ],
+    "require": {
+        "electrolinux/phpquery": "^0.9.6"
+    },
+    "autoload":{
+        "psr-4":{
+            "app\\":""
+        }
+    }
+}
